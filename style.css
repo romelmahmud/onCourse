@@ -1,0 +1,21 @@
+/* Making All Carousel Images small size and same aspecr ratio */
+.carousel-inner img {
+   max-height: 700px;
+   object-fit: cover;
+   aspect-ratio: 16/9;
+}
+/* Creating Background Overlay */
+.carousel-overlay::after{
+   content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1d1d1d;
+  opacity: 0.7;
+}
+.carousel-caption {
+   z-index: 2;
+}

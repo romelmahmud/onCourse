@@ -29,6 +29,9 @@ body{
 .clr-drk-grey {
    color: #4A4A4A;
 }
+.bg-custom-light-blue{
+   background-color: #F4FAFD;
+}
 
 /* Changing Accordion Button color when  open */
 .clr-drk-grey:not(.collapsed) {

@@ -25,14 +25,9 @@ body{
 .carousel-caption {
    z-index: 2;
 }
-
 .clr-drk-grey {
    color: #4A4A4A;
 }
-.bg-custom-light-blue{
-   background-color: #F4FAFD;
-}
-
 /* Changing Accordion Button color when  open */
 .clr-drk-grey:not(.collapsed) {
    color: #4A4A4A;    
@@ -41,7 +36,7 @@ body{
 .logo_max{
    max-width: 130px;
 }
-/* light custom background for icon */
+/* light custom background for socia media icon */
 .icon-bg-light{
 background-color: #494949;
 color: #fff;

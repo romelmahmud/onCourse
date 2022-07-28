@@ -4,7 +4,7 @@
 body{
    font-family: 'Poppins', sans-serif;
 }
-/* Making All Carousel Images small size and same aspecr ratio */
+/* Making All Carousel Images small size and same Aspect-ratio */
 .carousel-inner img {
    max-height: 700px;
    object-fit: cover;
@@ -25,6 +25,7 @@ body{
 .carousel-caption {
    z-index: 2;
 }
+/* Custom Color */
 .clr-drk-grey {
    color: #4A4A4A;
 }
@@ -32,11 +33,11 @@ body{
 .clr-drk-grey:not(.collapsed) {
    color: #4A4A4A;    
 }
-/* set company logo image maxx size */
+/* set all company logo image maxx size */
 .logo_max{
    max-width: 130px;
 }
-/* light custom background for socia media icon */
+/* light custom background for social media icon */
 .icon-bg-light{
 background-color: #494949;
 color: #fff;

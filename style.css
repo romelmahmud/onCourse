@@ -34,8 +34,12 @@ body{
 .clr-drk-grey:not(.collapsed) {
    color: #4A4A4A;    
 }
-
 /* set company logo image maxx size */
 .logo_max{
    max-width: 130px;
+}
+/* light custom background for icon */
+.icon-bg-light{
+background-color: #494949;
+color: #fff;
 }
